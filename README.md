@@ -1,4 +1,4 @@
-# Proyecto1
+# JMathPlot
 Primer proyecto de "Modelado y Programación". Este consiste en un compilador sencillo para expresiones matemáticas. 
 La especificación completa se encuentra en la liga: http://aztlan.fciencias.unam.mx/~canek/2016-1-myp/proyecto1.html
 
