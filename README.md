@@ -10,13 +10,14 @@ This application produces a **GUI that displays the graphical representation of 
 
 The mathematical expression is the program’s input, given as a string of characters organized so that it can be parsed using the following infix grammar:
 
+```
 <expression> ::= <number> |
                 <variable> |
                 "(" <expression> ")" |
                 "-" <expression> |
                 <function> "(" <expression> ")" |
                 <expression> <operator> <expression>
-
+                
                 <number> ::= <decimal> | <digits>
 
                 <decimal> ::= <digits> "." <digits> | <digits> "." | "." <digits>
@@ -32,6 +33,7 @@ The mathematical expression is the program’s input, given as a string of chara
                 <function> ::= "sin" | "cos" | "tan" | "cot" | "sec" | "csc" | "sqr"
 
                 <operator> ::= "+" | "-" | "*" | "/" | "^"
+```
 
 The program validates that the input follows this grammar. If an error is detected, it prompts the user to re-enter the data. 
 
