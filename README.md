@@ -2,6 +2,8 @@
 
 This project is primarily a compiler for mathematical expressions, but it is also an interactive GUI application that displays their graphical representation.
 
+<img src="https://github.com/andoresu47/JMathPlot/blob/master/Demo.gif" width="680" height="534"/>
+
 ---
 
 ## What does this program do?
